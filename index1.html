@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Motor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Beranda Section -->
+    <section id="beranda">
+        <header>
+            <h1>Selamat Datang di Rental Motor Nandita</h1>
+            <p> Solusi Tepat untuk Perjalanan Nyaman dan Mudah!
+
+                Kami hadir untuk memberikan pengalaman berkendara yang tak terlupakan dengan pilihan motor terbaik dan harga yang terjangkau. Baik untuk perjalanan harian, liburan, atau keperluan bisnis, kami memiliki motor yang sesuai dengan kebutuhan Anda.
+                
+                💡 Mengapa Memilih Kami?
+                
+                Armada Motor Terlengkap: Berbagai pilihan motor dari tipe skuter hingga motor sport.
+                Harga Bersahabat: Sewa motor dengan harga kompetitif tanpa mengorbankan kualitas.
+                Layanan Terpercaya: Proses pemesanan cepat, aman, dan terpercaya.
+                Perawatan Terjamin: Setiap motor selalu dalam kondisi prima untuk keamanan dan kenyamanan Anda.
+                
+                🚀 Siap untuk Berpetualang? Hubungi kami sekarang atau pesan langsung secara online, dan nikmati sensasi berkendara dengan motor impian Anda.</p>
+        </header>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk">
+        <h2>Daftar Motor</h2>
+        <div class="motor-item">
+            <img src="VARIO-160-ABS-WHITE.png" alt="Motor 1">
+            <h3>Honda Vario</h3>
+            <p>Rp. 100,000/hari</p>
+        </div>
+        <div class="motor-item">
+            <img src="Yamaha_Nmax_002.jpg.webp" alt="Motor 2">
+            <h3>Yamaha NMAX</h3>
+            <p>Rp. 150,000/hari</p>
+        </div>
+        <div class="motor-item">
+            <img src="primavera-green-relax-3.png" alt="Motor 3">
+            <h3>Vespa Primavera</h3>
+            <p>Rp. 200,000/hari</p>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <form id="booking-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="motor">Pilih Motor:</label>
+            <select id="motor" name="motor">
+                <option value="vario">Honda Vario</option>
+                <option value="nmax">Yamaha NMAX</option>
+                <option value="vespa">Vespa Primavera</option>
+            </select>
+
+            <label for="date">Tanggal Sewa:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Hubungi Kami: +62 812-3456-7890 | Email: rentalmotor@example.com</p>
+        <p>Hak Cipta © 2024 Rental Motor</p>
+    </footer>
+
+    <!-- Menyertakan file JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,168 @@
+/* Mengatur gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+/* Gaya untuk navigasi */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Gaya untuk link navigasi supaya tampak seperti button */
+nav ul li a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect untuk button */
+nav ul li a:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+/* Gaya responsif untuk layar kecil */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Gaya untuk header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Gaya untuk daftar motor */
+#motor-list {
+    text-align: center;
+    padding: 20px;
+}
+
+#motor-list h2 {
+    margin-bottom: 20px;
+}
+
+.motor-item {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    background-color: white;
+}
+
+.motor-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.motor-item h3 {
+    margin: 10px 0;
+}
+
+.motor-item p {
+    margin-bottom: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Gaya untuk formulir pemesanan */
+#booking-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 40px auto;
+    margin-bottom: 100px; /* Tambahkan ini untuk memberi jarak */
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+#booking-form h2 {
+    margin-bottom: 20px;
+}
+
+#booking-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#booking-form input, #booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#booking-form button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
